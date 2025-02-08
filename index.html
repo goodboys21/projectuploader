@@ -46,7 +46,7 @@
 
                 const data = await response.json();
                 if (data.fileName) {
-                    const proxyUrl = `https://your-vercel-app.vercel.app/file/${data.fileName}`; // Proxy URL hasil upload
+                    const proxyUrl = `https://baguscdn.vercel.app/file/${data.fileName}`; // Proxy URL hasil upload
                     document.getElementById("fileLink").href = proxyUrl;
                     document.getElementById("fileLink").innerText = proxyUrl;
                     document.getElementById("result").classList.remove("hidden");
