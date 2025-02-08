@@ -1,0 +1,25 @@
+{
+  "name": "file_uploader",
+  "version": "1.0.0",
+  "description": "File uploader simple created with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": ["File Uploader", "ITzpire Uploader", "Uploader", "Source Code"],
+  "author": "Miftah GanzZ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "fs": "0.0.1-security",
+    "path": "0.12.7",
+    "crypto": "1.0.1",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miftahganzz/File-Uploader"
+  },
+  "homepage": "https://cdn.itzpire.site"
+}
